@@ -1,4 +1,4 @@
-package app;
+package com.fenix.api;
 
 public class HelloPojo {
 	private String value1;

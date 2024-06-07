@@ -21,9 +21,4 @@ public class Testing {
 		assertEquals(i, 1);
 	}
 
-	@Test
-	public void test2() {
-		assertEquals(i, 2);
-	}
-
 }

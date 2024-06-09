@@ -10,13 +10,14 @@ public class HelloWorldController {
 
 	@GetMapping("/hello")
 	public String sayHello() {
+		System.out.println("Inside /hello");
 		return "Hello worlds!";
 
 	}
 
 	@GetMapping("/helloPojo")
 	public HelloPojo sayHelloPojo() {
-
+		System.out.println("Inside /helloPojo");
 		HelloPojo helloPojo = new HelloPojo();
 		helloPojo.setValue1("Hello");
 		helloPojo.setValue2("World!");

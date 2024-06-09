@@ -26,4 +26,4 @@ jobs:
         distribution: 'temurin'
         cache: maven
     - name: Build with Maven
-      run: cd app/src/test/java/com/fenix/api/test; ls;mvn test -Dtest=HellWorldServiceTest.java
+      run: cd app; ls; mvn test -Dtest=/src/test/java/com/fenix/api/testHellWorldServiceTest.java

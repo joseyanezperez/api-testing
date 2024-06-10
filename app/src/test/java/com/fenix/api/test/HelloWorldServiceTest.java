@@ -7,30 +7,30 @@ import org.junit.jupiter.api.Test;
 
 import com.fenix.api.HellWorldService;
 
-public class HellWorldServiceTest {
+public class HelloWorldServiceTest {
 
-    private HellWorldService hellWorldService;
+    private HelloWorldService helloWorldService;
 
     @BeforeEach
     public void setUp() {
-        hellWorldService = new HellWorldService();
+        helloWorldService = new HelloWorldService();
     }
 
     @Test
     public void testGetMessageOption1() {
-        String result = hellWorldService.getMessage("1");
+        String result = helloWorldService.getMessage("1");
         assertEquals("Hello world 1", result);
     }
 
     @Test
     public void testGetMessageOption2() {
-        String result = hellWorldService.getMessage("2");
+        String result = helloWorldService.getMessage("2");
         assertEquals("Hello world 1", result);  // Fix as per the actual requirement
     }
 
     @Test
     public void testGetMessageWrongInput() {
-        String result = hellWorldService.getMessage("3");
+        String result = helloWorldService.getMessage("3");
         assertEquals("Wrong input type", result);
     }
 }

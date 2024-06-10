@@ -10,8 +10,8 @@ public class HelloWorldController {
 
 	@GetMapping("/hello")
 	public String sayHello() {
-		HellWorldService hellWorldService = new HellWorldService();
-		hellWorldService.hellWorldService("1");
+		HelloWorldService helloWorldService = new HellWorldService();
+		helloWorldService.hellWorldService("1");
 		return ;
 
 	}

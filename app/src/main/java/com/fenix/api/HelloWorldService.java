@@ -1,8 +1,8 @@
 package com.fenix.api;
 
-public class HellWorldService {
+public class HelloWorldService {
 
-	public HellWorldService() {
+	public HelloWorldService() {
 	}
 	
 	public String getMessage(String option) {

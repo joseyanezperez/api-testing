@@ -5,7 +5,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import com.fenix.api.HellWorldService;
+import com.fenix.api.HelloWorldService;
 
 public class HelloWorldServiceTest {
 

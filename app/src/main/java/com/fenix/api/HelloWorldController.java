@@ -10,7 +10,7 @@ public class HelloWorldController {
 
 	@GetMapping("/hello")
 	public String sayHello() {
-		HelloWorldService helloWorldService = new HellWorldService();
+		HelloWorldService helloWorldService = new HelloWorldService();
 		helloWorldService.hellWorldService("1");
 		return ;
 

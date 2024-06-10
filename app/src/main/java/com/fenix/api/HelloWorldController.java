@@ -10,8 +10,9 @@ public class HelloWorldController {
 
 	@GetMapping("/hello")
 	public String sayHello() {
-		System.out.println("Inside /hello");
-		return "Hello worlds!";
+		HellWorldService hellWorldService = new HellWorldService();
+		hellWorldService.hellWorldService("1");
+		return ;
 
 	}
 

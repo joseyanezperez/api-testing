@@ -11,8 +11,7 @@ public class HelloWorldController {
 	@GetMapping("/hello")
 	public String sayHello() {
 		HelloWorldService helloWorldService = new HelloWorldService();
-		helloWorldService.hellWorldService("1");
-		return ;
+		return helloWorldService.getMessage("1");
 
 	}
 
